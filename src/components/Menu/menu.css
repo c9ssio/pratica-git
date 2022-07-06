@@ -1,0 +1,23 @@
+.menu {
+  position: absolute;
+  top: 20px;
+  right: 10%;
+  font-weight: bolder;
+  transition: transform 0.2s;
+}
+
+.menu-item {
+  color: white;
+  background-color: rgb(13, 49, 102);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.menu a{
+  text-decoration: none;
+}
+
+.menu:hover {
+  transform: scale(1.09);
+}
+

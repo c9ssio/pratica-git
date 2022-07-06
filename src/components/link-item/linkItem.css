@@ -1,0 +1,44 @@
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 14px;
+  left: 8px;
+  background-color: rgb(172, 189, 183);
+  padding: 14px;
+  width: 500px;
+  border: 4px;
+  animation: slideX 0.8s;
+}
+
+@keyframes slideX {
+  from {
+    transform: translateX(-500px)
+  } to {
+    transform: translateX(0);
+  }
+}
+
+.modal-header {
+
+}
+
+.x {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  border: 0;
+  background-color: transparent;
+}
+
+.modal-container span {
+  margin: 14px 0;
+  color: rgb(90, 88, 88)
+}
+
+.modal-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+}
